@@ -1,0 +1,219 @@
+
+/* HEADER */
+
+.header {
+    height: 603px;
+}
+
+.grid-column-header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    height: 100px;
+    align-items: center;
+    z-index: 2;
+}
+
+/* LOGO */
+.logo a {
+    color: white;
+    font-weight: bold;
+}
+
+/* MENU */
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+}
+
+.menu li {
+    width: 110px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a {
+    color: white;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* CART */
+
+.cart-place {
+    display: grid;
+    grid-template-columns: 15fr 2fr;
+    justify-items: end;
+}
+.cart-place div {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.glass {
+    background-image: url(images/Forma1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart {
+    background-image: url(images/Forma2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* LAMA-MENU */
+
+.lama-menu {
+    background-image: url(images/Lama.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 624px;
+    position: relative;
+    z-index: 1;
+    top: -120px;
+}
+
+.logo-lama-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    position: relative;
+    top: 67%;
+    width: 380px;
+    left: 25%;
+}
+
+.logo-box a {
+    color: white;
+    font-weight: bold;
+}
+
+.logo-box div {
+    margin-bottom: 20px;
+}
+
+.logo-box:hover div img {
+    background-color: black;
+    border-radius: 50%;
+}
+.logo-box:hover a {
+    color: black;
+}
+
+.lama-viber {
+    width: 230px;
+    height: 150px;
+    background-color: #f7f5c3;
+    position: fixed;
+    float: right;
+    left: 85.6%;
+    top:30%
+}
+
+.lama-viber img:nth-child(1) {
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.lama-viber img:last-child {
+    margin-top: 7px;
+}
+
+/* MAIN */
+/* SECTION1 */
+
+.section1-about-project {
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.grid-column-about-project {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    padding-top: 100px;
+}
+
+.about-project {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 50px;
+}
+
+.about-project h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.ab {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.block {
+    width: 120px;
+    height: 9px;
+    background-color: #f0d692;
+    border: none;
+}
+
+.about-project-text {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 50px;
+    width: 568px;
+}
+
+.about-project-text a {
+    color: #6e6d6d;
+    line-height: 30px;
+}
+
+.section1-buttons button {
+    width: 240px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+.section1-buttons button a {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.section1-buttons button:hover {
+    background-color: #f4d396;
+    border-radius: 30px;
+}
+
+.section1-buttons button:hover a {
+    border-bottom: none;
+}
+
+.grid-column-about-project img {
+    height: 514px;
+    width: 725px;
+    position: relative;
+    top: 69px;
+    left: 30px;
+}
+
+
+/* SECTION2 */
+
+.section2-our-portfolio {
+    background-color: #fbfbfb;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

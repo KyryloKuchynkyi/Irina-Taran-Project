@@ -157,6 +157,7 @@
 .ab {
     font-size: 10px;
     font-weight: bold;
+    letter-spacing: 1.8px;
 }
 
 
@@ -189,6 +190,7 @@
 .section1-buttons button a {
     font-size: 20px;
     border-bottom: 2px solid black;
+    letter-spacing: 1px;
 }
 
 .section1-buttons button:hover {

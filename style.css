@@ -75,9 +75,11 @@
 
 .lama-menu {
     background-image: url(images/Lama.png);
-    background-size: 100%;
     background-repeat: no-repeat;
-    height: 624px;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
     position: relative;
     z-index: 1;
     top: -120px;
@@ -88,7 +90,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
     position: relative;
-    top: 67%;
+    padding-top: 450px;
     width: 380px;
     left: 25%;
 }
